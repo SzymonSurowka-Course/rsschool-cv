@@ -1,1 +1,1 @@
-https://SzymonSurowka-Course.github.io/rsschool-cv/cv
+https://SzymonSurowka-Course.github.io/rsschool-cv/
