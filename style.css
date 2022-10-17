@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 350px 650px;
+}
+
+.main__left {
+    position: relative;
+    background-color: rgb(6, 78, 78);
+    padding: 40px;
+}
+
+.main__right {
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+
+.left__headline {
+    color: white;
+}
+
+.top.headline {
+    position: relative;
+}
+
+.profileContent {
+    color: white;
+    line-height: 1.5;
+}
+
+.right__headline {
+    color: rgb(37, 29, 29);
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: white;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
